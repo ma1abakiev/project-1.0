@@ -1,9 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato';
 }
 .container {
   max-width: 1413px;
   margin: 0 auto;
+}
+
+/* How */
+
+.how {
+  margin-top: 169px;
+}
+.how__suptitle {
+  font-size: 24px;
+  color: #424242;
+}
+.how__top {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.how__title {
+  color: #01996d;
+  font-size: 50px;
+  max-width: 584px;
+}
+.how__text {
+  font-size: 20px;
+  color: #424242;
+  max-width: 671px;
+  line-height: 30px;
+}
+
+.how__box {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 390px);
+  gap: 95px;
+}
+
+.how__card-title {
+  font-size: 30px;
+  text-align: center;
+}
+.how__card-text {
+  margin: 55px 0 60px 0;
+  color: #424242;
+  font-size: 20px;
+  font-weight: 500;
+}
+.how__card {
+  position: relative;
+}
+.how__card:nth-child(2) {
+  top: 300px;
+}
+.how__card::before {
+  content: '01';
+  position: absolute;
+  top: -100px;
+  left: 20px;
+  font-size: 150px;
+  color: #01996D33;
+  opacity: 80%;
+}
+
+.how__card:nth-child(2)::before {
+  content: '02';
+}
+.how__card:nth-child(3)::before {
+  content: '03';
 }
