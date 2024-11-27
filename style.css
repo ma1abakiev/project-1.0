@@ -447,3 +447,29 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 480px) {
+  .photo {
+    width: 290px;
+  }
+  .play {
+    bottom: 130px;
+    width: 42px;
+  }
+  .story {
+    padding: 65px 0;
+  }
+  .container {
+    max-width: 300px;
+  }
+  .right {
+    width: 280px;
+  }
+  .our__photo {
+    width: 280px;
+  }
+  .our__avtor {
+    width: 200px;
+    height: 230px;
+    right: 3px;
+  }
+}
